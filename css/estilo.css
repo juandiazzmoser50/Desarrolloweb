@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: goldenrod;
+}
+h1{
+    padding: 0px;
+    margin: 50px 550px 25px 500px;
+    border: 10px solid goldenrod;
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+}
+body{
+    background-image: linear-gradient(black, white);
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+footer{
+    padding: 25px;
+    margin-bottom: 0px;
+    margin-top: 1000px;
+    color: black;
+    background-color: goldenrod;
+}
+
+
+@media(min-width:320px){
+    .titulo-1{
+        background-color: white;
+        color: black;
+        margin-top: 10px;    
+        padding: 0px;
+        margin: 25px 25px 25px 50px;
+        border: 10px solid blue;
+    }
+    .flex_conteiner{
+        background-image: linear-gradient(lightblue, white);
+        margin-top: 0px;
+    }
+    p{
+        color: black;
+    }
+    .item{
+        width: 150px;
+        height: 150px;
+    }
+    .rows{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        gap: 50px;
+    }
+    .colu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        gap: 50px;
+    }  
+    .footer-1{
+        margin-top: 5px;
+        background-color: lightblue;
+        color: white;
+    }
+
+/*segunda pagina, dupla*/
+h2{
+    background-color: white;
+    color: black;
+    margin-top: 10px;    
+    padding: 0px;
+    margin: 25px 25px 5px 50px;
+    border: 10px solid black;
+}
+.contenedor-1{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "punto-1 punto-2 punto-3 punto-4";
+    margin: 25px;
+    margin-top: 15px;
+
+}
+.punto{
+    text-align: center;
+    border: solid black;
+    padding: 25px;
+}
+.punto-1{
+    grid-area: punto-1;
+}
+.punto-2{
+    grid-area: punto-2;
+}
+.punto-3{
+    grid-area: punto-3;
+}
+.punto-4{
+    grid-area: punto-4;
+}
+.dupla-1{
+    width: 200px;
+    height: 200px;
+}
+.dupla-2{
+    width: 200px;
+    height: 200px;
+}
+.dupla-3{
+    width: 200px;
+    height: 200px;
+}
+.dupla-4{
+    width: 200px;
+    height: 200px;
+}
+.footer-2{
+    margin-top: 15px;
+    background-color: goldenrod;
+    color: black;
+}
+/*salto europero*/
+.h-3{
+    background-color: goldenrod;
+    color: black;
+    margin-top: 10px;    
+    padding: 0px;
+    margin: 25px 25px 5px 50px;
+    border: 15px solid black;
+    text-align: center;
+}
+.conteiner-salto{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1 fr);
+    grid-template-areas: 
+    "h-3" 
+    "salto-1"
+    "salto-2" 
+    "salto-3";
+    margin-top: 25px;
+    margin: 10px;
+}
+.salto{
+    text-align: center;
+    border: solid goldenrod;
+    padding: 25px;
+}
+.h-3{
+    grid-area: h-3;
+}
+.salto-1{
+    grid-area: salto-1;
+    margin: 25px;
+}
+.salto-2{
+    grid-area: salto-2;
+    margin: 25px;
+}
+.salto-3{
+    grid-area: salto-3;
+    margin: 25px;
+}
+.europa-1{
+    width: 200px;
+    height: 200px;
+}
+.europa-2{
+    width: 200px;
+    height: 200px;
+}
+.europa-3{
+    width: 200px;
+    height: 200px;
+}
+.body-europa{
+    background-image: linear-gradient(black,white);
+}
+.footer-3{
+    margin-top: 10px;
+    background-color: goldenrod;
+    color: black;
+}
+
+}
+@media(min-width:768px){
+.titulo-1{       
+    background-color: black;
+    color: white;
+    margin-top: 10px;    
+    padding: 0px;
+    margin: 25px 25px 25px 50px;
+    border: 10px solid black;
+    }
+.flex_conteiner{
+    background-image: linear-gradient(black, white);
+    margin-top: 0px;
+    }
+p{
+    color: white;
+    }
+.footer-1{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    }
+/*segunda pagina, dupla*/
+h2{   
+    background-color:black;
+    color: goldenrod;
+    border: 10px solid goldenrod;
+}
+.footer-2{
+    background-color: black;
+    color: white;
+}
+/*salto europa*/
+.conteiner-salto{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1 fr);
+    grid-template-areas: 
+    "h-3 h-3 h-3 h-3 h-3 h-3" 
+    "salto-1 salto-1 salto-1 salto-2 salto-2 salto-2"
+    "salto-1 salto-1 salto-1 salto-2 salto-2 salto-2" 
+    "salto-3 salto-3 salto-3 salto-3 salto-3 salto-3";
+    margin-top: 25px;
+    margin: 10px;
+}
+.salto{
+    text-align: start;
+    border: solid gold;
+    padding: 30px;
+}
+.europa-1{
+    width: 280px;
+    height: 280px;
+}
+.europa-2{
+    width: 280px;
+    height: 280px;
+}
+.europa-3{
+    width: 350px;
+    height: 350px;
+}
+}
+
+
+@media(min-width:1024px){
+.titulo-1{       
+    color: goldenrod;   
+    }
+.footer-1{
+        margin-top: 5px;
+        background-color: goldenrod;
+        color: black;
+        text-align: end;
+    }
+/*segunda pagina, dupla*/
+h2{   
+    background-color:gold;
+    color: blue;    
+    padding: 5px;
+    margin: 15px 25px 5px 50px;
+    border: 10px solid gold;
+}
+.punto{
+    text-align: start;
+    border: solid gold;
+    padding: 30px;
+}
+.dupla-1{
+    width: 350px;
+    height: 350px;
+}
+.dupla-2{
+    width: 350px;
+    height: 350px;
+}
+.dupla-3{
+    width: 350px;
+    height: 350px;
+}
+.dupla-4{
+    width: 350px;
+    height: 350px;
+}
+.footer-2{
+    background-color: gold;
+    color: blue;
+    text-align: center;
+}
+/*salto a europa*/
+.salto{
+    text-align: center;
+    border: solid gold;
+    padding: 30px;
+}
+.footer-3{
+    margin-top: 10px;
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+}
+
+
+
+
+@media(min-width:1200px){
+.titulo-1{
+    padding: 0px;
+    margin: 50px 550px 25px 500px;
+    border: 10px solid goldenrod;
+    background-color: black;
+    color: white;
+    text-align: center;
+    }
+.flex_conteiner{
+    background-image: linear-gradient(black, white);
+    margin-top: 0px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.colu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.item{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+.footer-1{
+    padding: 25px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: black;
+    background-color: goldenrod;
+    text-align: center;
+}
+/*segunda pagina, dupla*/
+h2{   
+    background-color:blue;
+    color: gold;    
+    padding: 5px;
+    border: 5px solid gold;
+
+}
+.punto{
+    text-align: center;
+    margin-top: 5px;
+}
+.footer-2{
+    color: black;
+}
+/*salto a europa*/
+.h-3{
+    background-color: purple;
+    color: white;
+    margin-top: 10px;    
+    padding: 0px;
+    margin: 25px 25px 5px 50px;
+    border: 15px solid ;
+    text-align: start;
+}
+.salto{
+    border: solid purple;
+    padding: 30px;
+}
+.europa-1{
+    width: 350px;
+    height: 350px;
+}
+.europa-2{
+    width: 350px;
+    height: 350px;
+}
+.europa-3{
+    width: 450px;
+    height: 450px;
+}
+.footer-3{
+    margin-top: 15px;
+    background-color: purple;
+    color: white;
+    text-align: end;
+}
+/*roman vice*/
+.h-4{
+    background-color: white;
+    color: goldenrod;
+    margin-top: 10px;    
+    padding: 0px;
+    margin: 25px 25px 30px 50px;
+    border: 15px solid ;
+    text-align: start;
+}
+.contenedor-4{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1 fr);
+    grid-template-areas: 
+    "vise-1 vise-1 vise-1 vise-1 vise-1 vise-1"
+    "vise-2 vise-2 vise-2 vise-2 vise-2 vise-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "footer-4 footer-4 footer-4 footer-4 footer-4 footer-4"
+}
+.picture{
+    border: solid gold;
+    padding: 30px;
+}
+.vise-1{
+    grid-area: vise-1;
+}
+.vise-2{
+    grid-area: vise-2;
+}
+
+.picture:hover{ 
+    transform: scale(2);
+}
+
+.picture-1{
+    grid-area: picture-1;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.picture-2{
+    grid-area: picture-2;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.picture-3{
+    grid-area: picture-3;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.picture-4{
+    grid-area: picture-3;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.picture-5{
+    grid-area: picture-3;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.picture-6{
+    grid-area: picture-3;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.picture-3{
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+}
+.picture-2{
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+}
+.picture-1{
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+}
+.picture-4{
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+}
+.picture-5{
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+}
+.picture-6{
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+}
+.footer-4{
+    grid-area: footer-4;
+}
+.footer-4{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: end;
+}
+/*ultima pagina, origenes*/
+.h-6{
+    background-color: white;
+    color: black;
+    margin-top: 10px;    
+    border: 5px solid lightblue;
+    text-align: center;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.ultima{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+.footer-5{
+    margin-top: 15px;
+    background-color: goldenrod;
+    color:black;
+    text-align: center;
+}
+}
