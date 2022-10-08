@@ -549,8 +549,8 @@ h2 {
     align-items: center;
     align-content: center;
     justify-content: center;
-    grid-template-columns: 9fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     grid-template-areas: "vise-1" "vise-2" "picture-1" "picture-2" "picture-3" "picture-4" "picture-5" "picture-6" "footer-4";
   }
 }
