@@ -722,6 +722,81 @@ h2 {
   }
 }
 
+@media (min-width: 320px) {
+  .h-6 {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border: 5px solid gold;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .h-6 {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border: 5px solid lightblue;
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) {
+  .rows {
+    padding: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 320px) {
+  .col {
+    padding: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 320px) {
+  .ultima {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .ultima {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 320px) {
+  .footer-5 {
+    margin-top: 15px;
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+  }
+}
+
 @media (min-width: 1200px) {
   /*ultima pagina, origenes*/
   .h-6 {
