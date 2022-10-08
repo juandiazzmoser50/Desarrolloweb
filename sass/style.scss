@@ -1,0 +1,78 @@
+@import "fuentes";
+@import "generales";
+@import "mediaPrimera";
+@import "mediaSegunda";
+@import "mediaTercera";
+@import "mediaCuarta";
+@media(min-width:320px){
+
+
+
+}
+@media(min-width:768px){
+
+
+}
+
+
+@media(min-width:1024px){
+
+
+}
+
+@media(min-width:1200px){
+
+/*roman vice*/
+
+.contenedor-4{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1 fr);
+    grid-template-areas: 
+    "vise-1 vise-1 vise-1 vise-1 vise-1 vise-1"
+    "vise-2 vise-2 vise-2 vise-2 vise-2 vise-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "footer-4 footer-4 footer-4 footer-4 footer-4 footer-4"
+}
+
+
+/*ultima pagina, origenes*/
+.h-6{
+    background-color: white;
+    color: black;
+    margin-top: 10px;    
+    border: 5px solid lightblue;
+    text-align: center;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.ultima{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+.footer-5{
+    margin-top: 15px;
+    background-color: goldenrod;
+    color:black;
+    text-align: center;
+}
+}

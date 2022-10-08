@@ -1,0 +1,126 @@
+h1{
+    padding: 0px;
+    margin: 50px 550px 25px 500px;
+    border: 10px solid goldenrod;
+    color: white;
+    text-align: center;
+
+    @media(min-width:320px){
+        background-color: white;
+        color: black;
+        margin-top: 10px;    
+        padding: 0px;
+        margin: 25px 25px 25px 50px;
+        border: 10px solid blue;
+    }
+    @media(min-width:768px){
+    background-color: black;
+    color: white;
+    margin-top: 10px;    
+    padding: 0px;
+    margin: 25px 25px 25px 50px;
+    border: 10px solid black;
+    }
+    @media(min-width:1024px){
+    color: goldenrod;   
+    }
+    @media(min-width:1200px){
+    padding: 0px;
+    margin: 50px 550px 25px 500px;
+    border: 10px solid goldenrod;
+    background-color: black;
+    color: white;
+    text-align: center;
+    }
+}
+.flex_conteiner{
+    background-image: linear-gradient(black, white);
+    @media(min-width:320px){
+    background-image: linear-gradient(lightblue, white);
+    margin-top: 0px;
+    }
+    @media(min-width:768px){
+    background-image: linear-gradient(black, white);
+    margin-top: 0px;
+    }
+    @media(min-width:1200px){
+    background-image: linear-gradient(black, white);
+    margin-top: 0px;
+    }
+}
+@media(min-width:320px){
+    p{
+        color: black;
+    }
+    @media(min-width:768px){
+    p{
+        color: white;
+    }
+    }
+}
+.item{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    @media(min-width:320px){
+        .item{
+            width: 150px;
+            height: 150px;
+            }
+    }
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    @media(min-width:320px){
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        gap: 50px;
+    }
+}
+.colu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    @media(min-width:320px){
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        gap: 50px;
+    }
+}
+.footer-1{
+    padding: 25px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: black;
+    background-color: goldenrod;
+    text-align: center;
+    @media(min-width:1024px){
+        margin-top: 5px;
+        background-color: goldenrod;
+        color: black;
+        text-align: end;
+    }
+    @media(min-width:768px){
+        margin-top: 5px;
+        background-color: black;
+        color: white;
+    }
+    @media(min-width:320px){
+        margin-top: 5px;
+        background-color: lightblue;
+        color: white;
+    }
+}

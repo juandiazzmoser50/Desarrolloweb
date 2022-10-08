@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: goldenrod;
+}
+body{
+    background-image: linear-gradient(black, white);
+    p{
+        color: white;
+        li{
+            list-style: none;
+            display: inline-block;
+            
+        }
+    }
+}
+footer{
+    padding: 25px;
+    margin-bottom: 0px;
+    margin-top: 1000px;
+    color: black;
+    background-color: goldenrod;
+}

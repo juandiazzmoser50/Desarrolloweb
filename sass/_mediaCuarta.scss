@@ -1,0 +1,185 @@
+.h-4{
+    @media(min-width:320px){
+    background-color: black;
+    color: gold;
+    margin-top: 0px;    
+    padding: 0px;
+    margin: 25px 25px 30px 50px;
+    border: 5px solid ;
+    text-align: start;
+    }
+    @media(min-width:1200px){
+        background-color: white;
+        color: goldenrod;
+        margin-top: 10px;    
+        padding: 0px;
+        margin: 25px 25px 30px 50px;
+        border: 15px solid ;
+        text-align: start;
+    }
+}
+.contenedor-4{
+    @media(min-width:320px){
+        display: grid;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: 9fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "vise-1"
+        "vise-2"
+        "picture-1"
+        "picture-2"
+        "picture-3"
+        "picture-4"
+        "picture-5"
+        "picture-6"
+        "footer-4";
+    }
+    @media(min-width:1200px){
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1 fr);
+    grid-template-areas: 
+    "vise-1 vise-1 vise-1 vise-1 vise-1 vise-1"
+    "vise-2 vise-2 vise-2 vise-2 vise-2 vise-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "picture-6 picture-1 picture-3 picture-4 picture-5 picture-2"
+    "footer-4 footer-4 footer-4 footer-4 footer-4 footer-4"
+    }
+}
+.picture{
+    @media(min-width:320px){
+    border: solid goldenrod;
+    padding: 5px;
+    }
+    @media(min-width:1200px){
+        border: solid gold;
+        padding: 30px;
+    }
+}
+
+.vise-1{
+    grid-area: vise-1;
+}
+.vise-2{
+    grid-area: vise-2;
+}
+.picture:hover{ 
+    @media(min-width:1200px){
+        transform: scale(2);
+    }
+}
+.picture-1{
+    @media(min-width:320px){
+        grid-area: picture-1;
+        width: 50px;
+        height: 50px;
+        margin: 50px 50px 50px 50px
+    }
+    @media(min-width:1200px){
+    grid-area: picture-1;
+    transition-property: all;
+    transition-duration: 3s;
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+    }
+}
+.picture-2{
+    @media(min-width:320px){
+        grid-area: picture-2;
+        width: 50px;
+        height: 50px;
+        margin: 50px 50px 50px 50px
+    }
+    @media(min-width:1200px){
+    grid-area: picture-2;
+    transition-property: all;
+    transition-duration: 3s;
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+    }
+}
+.picture-3{
+    @media(min-width:320px){
+        grid-area: picture-3;
+        width: 50px;
+        height: 50px;
+        margin: 50px 50px 50px 50px
+    }
+    @media(min-width:1200px){
+    grid-area: picture-3;
+    transition-property: all;
+    transition-duration: 3s;
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+    }
+}
+.picture-4{
+    @media(min-width:320px){
+        grid-area: picture-4;
+        width: 50px;
+        height: 50px;
+        margin: 50px 50px 50px 50px
+    }
+    @media(min-width:1200px){
+    grid-area: picture-4;
+    transition-property: all;
+    transition-duration: 3s;
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+    }
+}
+.picture-5{
+    @media(min-width:320px){
+        grid-area: picture-5;
+        width: 50px;
+        height: 50px;
+        margin: 50px 50px 50px 50px
+    }
+    @media(min-width:1200px){
+    grid-area: picture-5;
+    transition-property: all;
+    transition-duration: 3s;
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+    }
+}
+.picture-6{
+    @media(min-width:320px){
+        grid-area: picture-6;
+        width: 50px;
+        height: 50px;
+        margin: 50px 50px 50px 50px
+    }
+    @media(min-width:1200px){
+    grid-area: picture-6;
+    transition-property: all;
+    transition-duration: 3s;
+    width: 250px;
+    height: 250px;
+    margin: 150px 150px 150px 150px
+    }
+}
+
+.footer-4{
+    @media(min-width:320px){
+        grid-area:footer-4;}
+    @media(min-width:1200px){
+    grid-area: footer-4;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: end;
+    }
+}
