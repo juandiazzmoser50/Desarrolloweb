@@ -606,8 +606,6 @@ h2 {
     grid-area: picture-1;
     transition-property: all;
     transition-duration: 3s;
-    width: 250px;
-    height: 250px;
     margin: 150px 150px 150px 150px;
   }
 }
@@ -625,8 +623,6 @@ h2 {
     grid-area: picture-2;
     transition-property: all;
     transition-duration: 3s;
-    width: 250px;
-    height: 250px;
     margin: 150px 150px 150px 150px;
   }
 }
@@ -644,8 +640,6 @@ h2 {
     grid-area: picture-3;
     transition-property: all;
     transition-duration: 3s;
-    width: 250px;
-    height: 250px;
     margin: 150px 150px 150px 150px;
   }
 }
@@ -663,8 +657,6 @@ h2 {
     grid-area: picture-4;
     transition-property: all;
     transition-duration: 3s;
-    width: 250px;
-    height: 250px;
     margin: 150px 150px 150px 150px;
   }
 }
@@ -682,8 +674,6 @@ h2 {
     grid-area: picture-5;
     transition-property: all;
     transition-duration: 3s;
-    width: 250px;
-    height: 250px;
     margin: 150px 150px 150px 150px;
   }
 }
@@ -701,8 +691,6 @@ h2 {
     grid-area: picture-6;
     transition-property: all;
     transition-duration: 3s;
-    width: 250px;
-    height: 250px;
     margin: 150px 150px 150px 150px;
   }
 }
