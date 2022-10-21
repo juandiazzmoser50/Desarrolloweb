@@ -4,16 +4,7 @@ h1{
     border: 10px solid goldenrod;
     color: white;
     text-align: center;
-
     @media(min-width:320px){
-        background-color: white;
-        color: black;
-        margin-top: 10px;    
-        padding: 0px;
-        margin: 25px 25px 25px 50px;
-        border: 10px solid blue;
-    }
-    @media(min-width:768px){
     background-color: black;
     color: white;
     margin-top: 10px;    
@@ -34,9 +25,8 @@ h1{
     }
 }
 .flex_conteiner{
-    background-image: linear-gradient(black, white);
     @media(min-width:320px){
-    background-image: linear-gradient(lightblue, white);
+    background-image: linear-gradient(black, white);
     margin-top: 0px;
     }
     @media(min-width:768px){
@@ -58,15 +48,17 @@ h1{
     }
     }
 }
+@mixin size ($width,$height) {
+    height: $height;
+    width: $width;
+}
 .item{
-    height: 300px;
-    width: 300px;
+    @include size(300px,300px);
     margin: 20px;
     padding: 20px;
     @media(min-width:320px){
         .item{
-            width: 150px;
-            height: 150px;
+            @include size(150px, 150px);
             }
     }
 }
@@ -104,23 +96,10 @@ h1{
     padding: 25px;
     margin-bottom: 0px;
     margin-top: 10px;
-    color: black;
-    background-color: goldenrod;
-    text-align: center;
-    @media(min-width:1024px){
+    @media(min-width:320px){
         margin-top: 5px;
         background-color: goldenrod;
         color: black;
-        text-align: end;
-    }
-    @media(min-width:768px){
-        margin-top: 5px;
-        background-color: black;
-        color: white;
-    }
-    @media(min-width:320px){
-        margin-top: 5px;
-        background-color: lightblue;
-        color: white;
+        text-align: start;
     }
 }

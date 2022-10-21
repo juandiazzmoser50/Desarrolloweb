@@ -1,29 +1,24 @@
 h2{   
-    background-color:blue;
-    color: gold;    
     padding: 5px;
     border: 5px solid gold;
-    @media(min-width:1024px){
-        background-color:gold;
-        color: blue;    
-        padding: 5px;
-        margin: 15px 25px 5px 50px;
-        border: 10px solid gold;
-    }
-    @media(min-width:768px){
+    @media(min-width:320px){
         background-color:black;
         color: goldenrod;
-        border: 10px solid goldenrod;
-    }
-    @media(min-width:320px){
-        background-color: white;
-        color: black;
         margin-top: 10px;    
         padding: 0px;
-        margin: 25px 25px 5px 50px;
-        border: 10px solid black;
+        margin: 25px 25px 1px 50px;
+        border: 10px solid goldenrod;
+    }
+    @media(min-width:768px){
+        border: 10px solid goldenrod;
+    }
+    @media(min-width:1024px){
+        padding: 5px;
+        margin: 15px 25px 1px 50px;
+        border: 10px solid goldenrod;
     }
 }
+
 @media(min-width:320px){
 .contenedor-1{
     display: grid;
@@ -65,50 +60,45 @@ h2{
         grid-area: punto-4;
     }
 }
+@mixin size ($width,$height) {
+    height: $height;
+    width: $width;
+}
 .dupla-1{
-    width: 200px;
-    height: 200px;
+    @include size(200px,200px);
     @media(min-width:1024px){
-        width: 350px;
-        height: 350px;
+        @include size(350px,350px);
     }
 }
 .dupla-2{
-    width: 200px;
-    height: 200px;
+    @include size(200px,200px);
     @media(min-width:1024px){
-        width: 350px;
-        height: 350px;
+        @include size(350px,350px);
     }
 }
 .dupla-3{
-    width: 200px;
-    height: 200px;
+    @include size(200px,200px);
     @media(min-width:1024px){
-        width: 350px;
-        height: 350px;
+        @include size(350px,350px);
     }
 }
 .dupla-4{
-    width: 200px;
-    height: 200px;
+    @include size(200px,200px);
     @media(min-width:1024px){
-        width: 350px;
-        height: 350px;
+        @include size(350px,350px);
     }
 }
 .footer-2{
     margin-top: 15px;
     background-color: goldenrod;
     color: black;
+    text-align: start;
     @media(min-width:768px){
-        background-color: black;
+        background-color: goldenrod;
         color: white;
     }
     @media(min-width:1024px){
-        background-color: gold;
-        color: blue;
-        text-align: center;
+        background-color: goldenrod;
     }
     @media(min-width:1200px){
         color: black;

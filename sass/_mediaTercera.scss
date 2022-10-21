@@ -9,12 +9,6 @@
         text-align: center;
     }
     @media(min-width:1200px){
-        background-color: purple;
-        color: white;
-        margin-top: 10px;    
-        padding: 0px;
-        margin: 25px 25px 5px 50px;
-        border: 15px solid ;
         text-align: start;
     }
 }
@@ -58,17 +52,11 @@
     padding: 25px;
     }
     @media(min-width:768px){
-        text-align: start;
         border: solid gold;
         padding: 30px;
     }
     @media(min-width:1024px){
-        text-align: center;
         border: solid gold;
-        padding: 30px;
-    }
-    @media(min-width:1200px){
-        border: solid purple;
         padding: 30px;
     }
 }
@@ -95,46 +83,41 @@
     margin: 25px;
     }
 }
+@mixin size ($width,$height) {
+    height: $height;
+    width: $width;
+}
 .europa-1{
     @media(min-width:320px){
-    width: 200px;
-    height: 200px;
+    @include size(200px,200px);
     }
     @media(min-width:768px){
-        width: 280px;
-        height: 280px;
+        @include size(280px,280px);
     }
     @media(min-width:1200px){
-        width: 350px;
-        height: 350px;
+        @include size(350px,350px);
+    }
+}
+.europa-3{
+    @media(min-width:320px){
+        @include size(200px,200px);
+    }
+    @media(min-width:768px){
+        @include size(280px,280px);
+    }
+    @media(min-width:1200px){
+        @include size(350px,350px);
     }
 }
 .europa-2{
     @media(min-width:320px){
-    width: 200px;
-    height: 200px;
-    }
-    @media(min-width:768px){
-        width: 280px;
-        height: 280px;
-    }
-    @media(min-width:1200px){
-        width: 350px;
-        height: 350px;
-    }
-}
-.europa-2{
-    @media(min-width:320px){
-    width: 200px;
-    height: 200px;
+        @include size(200px,200px);
     }    
     @media(min-width:768px){
-        width: 350px;
-        height: 350px;
+        @include size(280px,280px);
     }
     @media(min-width:1200px){
-        width: 450px;
-        height: 450px;
+        @include size(350px,350px);
     }
 }
 
@@ -148,17 +131,14 @@
     margin-top: 10px;
     background-color: goldenrod;
     color: black;
+    text-align: start;
     }
     @media(min-width:1024px){
         margin-top: 10px;
         background-color: black;
         color: gold;
-        text-align: center;
     }
     @media(min-width:1200px){
         margin-top: 15px;
-        background-color: purple;
-        color: white;
-        text-align: end;
     }
 }
