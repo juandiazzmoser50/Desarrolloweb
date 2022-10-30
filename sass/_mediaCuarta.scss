@@ -55,7 +55,7 @@
 }
 .picture{
     @media(min-width:320px){
-    border: solid goldenrod;
+    border: 3px solid goldenrod;
     padding: 5px;
     }
     @media(min-width:1200px){
@@ -171,8 +171,8 @@
     @media(min-width:1200px){
     grid-area: footer-4;
     margin-top: 15px;
-    background-color: black;
+    background-color: goldenrod;
     color: white;
-    text-align: end;
+    text-align: start;
     }
 }

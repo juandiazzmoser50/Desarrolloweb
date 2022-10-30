@@ -94,6 +94,7 @@ h1 {
   width: 300px;
   margin: 20px;
   padding: 20px;
+  border: 5px solid blue;
 }
 @media (min-width: 320px) {
   .item .item {
@@ -195,18 +196,18 @@ h2 {
   text-align: center;
   margin-top: 5px;
 }
-@media (min-width: 1024px) {
-  .punto {
-    text-align: start;
-    border: solid gold;
-    padding: 30px;
-  }
-}
 @media (min-width: 320px) {
   .punto {
-    text-align: center;
+    text-align: start;
     border: solid black;
     padding: 25px;
+  }
+}
+@media (min-width: 320px) and (min-width: 1024px) {
+  .punto {
+    text-align: center;
+    border: solid gold;
+    padding: 30px;
   }
 }
 
@@ -514,7 +515,7 @@ h2 {
 
 @media (min-width: 320px) {
   .picture {
-    border: solid goldenrod;
+    border: 3px solid goldenrod;
     padding: 5px;
   }
 }
@@ -662,9 +663,9 @@ h2 {
   .footer-4 {
     grid-area: footer-4;
     margin-top: 15px;
-    background-color: black;
+    background-color: goldenrod;
     color: white;
-    text-align: end;
+    text-align: start;
   }
 }
 
@@ -679,11 +680,8 @@ h2 {
 }
 @media (min-width: 1200px) {
   .h-6 {
-    background-color: white;
-    color: black;
-    margin-top: 10px;
-    border: 5px solid lightblue;
-    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
   }
 }
 
@@ -723,6 +721,7 @@ h2 {
     width: 200px;
     margin: 10px;
     padding: 5px;
+    border: 3px solid goldenrod;
   }
 }
 @media (min-width: 1200px) {
@@ -739,6 +738,6 @@ h2 {
     margin-top: 10px;
     background-color: goldenrod;
     color: black;
-    text-align: center;
+    text-align: start;
   }
 }/*# sourceMappingURL=style.css.map */
